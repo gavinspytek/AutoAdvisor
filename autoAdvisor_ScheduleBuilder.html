@@ -1,0 +1,128 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Auto Advisor - Schedule Builder</title>
+    <link rel="stylesheet" href="autoAdvisor_ScheduleBuilder.css">
+
+    <script src="scheduleBuilder.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+
+</script>
+
+<body>
+
+    <!--3 Main Colums-->
+    <div class="row">
+
+        <!--Left Column-->
+        <div class="column left" style="overflow-y:scroll;">
+            <h1>Semester Viewer</h1>
+            <br />
+            <button type="button" class="semesterView">Fall 2022</button>
+            <button type="button" class="semesterView">Spring 2023</button>
+            <button type="button" class="semesterView">Fall 2023</button>
+            <button type="button" class="semesterView">Spring 2024</button>
+        </div>
+
+
+
+
+
+        <!--Middle Column-->
+        <div class="column middle">
+            <!--Top section-->
+            <div class="tab">
+                <button class="tablinks">Schedule Editor</button>
+                <button class="tablinks" id="save_button" value="Save" onclick="">Save</button>
+                <button class="tablinks" id="edit_button" value="Edit" onclick="">Edit</button>
+                <button class="tablinks">Load</button>
+                <a href="autoAdvisor.html"><button class="tablinks">Logout</button></a>
+            </div>
+            <!--Table-->
+            <div>
+                <h1>Editor</h1>
+
+                <table id="tableId">
+                    <th style="width: 275px;">Course</th>
+                    <th style="width: 225px;">Credits</th>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+
+                    </tr>
+                    <tr>
+
+                    </tr>
+                </table>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <!--Right Column
+            <div class="column right" style="overflow-y:scroll;">
+                <h1>Courses</h1>
+
+                <button type="button" class="collapsible" data-toggle="collapse" data-target="#demo">Computer Science</button>
+                <div class="content" id="demo">
+                    <button type="button" class="collapsible">Software Engineering 1</button>
+                    <p>A class where you do stuff and make stuff</p>
+                </div>
+
+                <button type="button" class="collapsible">Computer Science</button>
+                <div class="content">
+                    <button type="button" class="collapsible">Software Engineering 1</button>
+                    <p>A class where you do stuff and make stuff</p>
+                </div>
+
+                <button type="button" class="collapsible">Cyber Security</button>
+                <div class="content">
+
+                </div>
+
+                <button type="button" class="collapsible">General Education</button>
+                <div class="content">
+
+                </div>
+            </div>
+
+        </div>
+                -->
+
+        <!--Right Column-->
+        <div class="container column right" style="overflow-y:scroll;">
+
+
+            <h1>Courses</h1>
+
+            <button type="button" class="collapsible">Computer Science</button>
+            <div class="content">
+                
+                    <p>Software Engineering 1</p>
+                
+            </div>
+
+            <button class="collapsible">Open Section 2</button>
+            <div class="content">
+                <p>Something</p>
+            </div>
+
+
+
+        </div>
+
+
+
+</body>
+</html>

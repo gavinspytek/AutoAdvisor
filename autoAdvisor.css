@@ -1,0 +1,39 @@
+html {
+    background: #e0e0e0;
+    text-align: center;
+
+}
+
+input[type=login] {
+  text-align: center;
+  background-color: #b21c11;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+button {
+    text-align: center;
+    background-color: #b21c11;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+div {
+  width: 50%;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+form {
+    align-self: center;
+}

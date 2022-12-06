@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Auto Advisor</title>
+    <link rel="stylesheet" href="autoAdvisor.css">
+  </head>
+  <body>
+    <h1>Auto Advisor</h1>
+
+    <p>Login With Your SE username and Password</p>
+
+    <div>
+        <form name="f1" action = "testUser.php" onsubmit = "return validation()" method = "POST">
+            <label for="username">SE key:</label>
+            <input type="text" id="username" name="username"><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+            <p>     
+              <input type =  "submit" id = "btn" value = "Login" />  
+           </p>
+        </form>  
+
+    </div>
+
+    <h4><a href="https://www.w3schools.com/html/html_links.asp">Need Help?</a></h4>
+
+
+    <script>  
+      function validation()  
+      {  
+          var id=document.f1.user.value;  
+          var ps=document.f1.pass.value;  
+          if(id.length=="" && ps.length=="") {  
+              alert("User Name and Password fields are empty");  
+              return false;  
+          }  
+          else  
+          {  
+              if(id.length=="") {  
+                  alert("User Name is empty");  
+                  return false;  
+              }   
+              if (ps.length=="") {  
+              alert("Password field is empty");  
+              return false;  
+              }  
+          }                             
+      }  
+  </script>  
+  </body>
+</html>
