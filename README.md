@@ -16,5 +16,5 @@
 
 ### How to Start the Project
 ***Ensure you follow all formatting EXACTLY as stated***
-1. Install and run XAMPP: (https://www.apachefriends.org/download.html)
+1. Install and run XAMPP: https://www.apachefriends.org/download.html
 2. Open and 
