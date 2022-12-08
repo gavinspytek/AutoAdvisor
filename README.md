@@ -16,6 +16,7 @@
 
 ### How to Start the Project
 ***Ensure you follow all formatting EXACTLY as stated***
+
 <ins>XAMPP SETUP</ins>
 1. Install and run XAMPP: https://www.apachefriends.org/download.html
 2. Click the Config button in the MYSQL Module and select my.ini.
