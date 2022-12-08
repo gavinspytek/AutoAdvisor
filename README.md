@@ -43,3 +43,18 @@
 
 <ins>Running the Program</ins>
 1. Run local localhost/autoadvisor/autoAdvisor.html
+2. SE key = root    Password: user
+3. Enjoy!
+
+
+***Fuctionalities***
+
+*This Auto Advisor software is designed to present a student with information regarding their remaining time at SEMO.
+*While designing future semesters, a student will be automatically recommended classes based on avaliability, prerequisites, requirements.
+
+**Alongside these main features there are a few other extras that the Auto Advisor software can offer!**
+*On the left-hand side you can view a semester as a whole. Besides the current semester and classes that have been applied for, classes here are subject to change.
+*A student may edit their schedule, load a schedule, save a schedule, and logout once finished.
+*Courses for different departments may be viewed on the left side though the dropdown menu.
+
+
