@@ -13,6 +13,7 @@
 ### ENTRY POINT
   After completing steps on how to start the project, run
   localhost/autoadvisor/autoAdvisor.html
+  
 ---
 ### How to Start the Project
 ***Ensure you follow all formatting EXACTLY as stated***
@@ -56,5 +57,27 @@
 * On the left-hand side you can view a semester as a whole. Besides the current semester and classes that have been applied for, classes here are subject to change.
 * A student may edit their schedule, load a schedule, save a schedule, and logout once finished.
 * Courses for different departments may be viewed on the left side though the dropdown menu.
+
 ---
+### Tested Brower and OS
+
+**Auto Advisor has been tested on the following Operating Systems:
+* Windows 10 Home Build 19044.2251
+* Windows 11 Home Version 22H2
+
+**Auto Advisor has been tested on the following Browsers:
+* Google Chrome Version 108.0.5359.99 (Official Build) (64-bit)
+* Avast Secure Browser Version 107.0.19447.122 (Official Build) (64-bit)
+
+---
+### External Libraries/Frameworks
+
+**Auto Advisor uses the following External Libraries/Frameworks:
+
+---
+### Starter Code
+
+---
+### Changed Code
+
 
