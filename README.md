@@ -44,7 +44,7 @@
 
 <ins>Running the Program</ins>
 1. Run local localhost/autoadvisor/autoAdvisor.html
-2. SE key = root    Password: user
+2. SE key: root    Password: user
 3. Enjoy!
 
 ---
