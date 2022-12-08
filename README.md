@@ -47,7 +47,7 @@
 3. Enjoy!
 
 
-***Fuctionalities***
+### Fuctionalities
 
 * This Auto Advisor software is designed to present a student with information regarding their remaining time at SEMO.
 * While designing future semesters, a student will be automatically recommended classes based on avaliability, prerequisites, requirements.
