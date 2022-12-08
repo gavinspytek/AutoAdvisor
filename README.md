@@ -9,11 +9,11 @@
 * Starter Code Used
 * Changed Code
 
-
+---
 ### ENTRY POINT
   After completing steps on how to start the project, run
   localhost/autoadvisor/autoAdvisor.html
-
+---
 ### How to Start the Project
 ***Ensure you follow all formatting EXACTLY as stated***
 
@@ -46,7 +46,7 @@
 2. SE key = root    Password: user
 3. Enjoy!
 
-
+---
 ### Fuctionalities
 
 * This Auto Advisor software is designed to present a student with information regarding their remaining time at SEMO.
@@ -56,5 +56,5 @@
 * On the left-hand side you can view a semester as a whole. Besides the current semester and classes that have been applied for, classes here are subject to change.
 * A student may edit their schedule, load a schedule, save a schedule, and logout once finished.
 * Courses for different departments may be viewed on the left side though the dropdown menu.
-
+---
 
