@@ -30,3 +30,9 @@
 10. Add line 11 in the "Authentication type and info" section near the beginning.
 11. $cfg['Servers'][$i]['port'] = 4000;
 12. Save the file and return to the XAMPP Control Panel
+
+<ins>Prepping Database and Files</ins>
+1. On GITHUB, download this repository.
+2. In the XAMPP folder (accessed by clicking Explorer in the XAMPP Control Panel, open htdocs      and create a folder named autoadvisor.
+3. Copy all files and paste all files into the autoadvisor folder that was created.
+4. On the XAMPP Control Panel, click Start for Apache and MySQL. Click Admin for MySQL.
