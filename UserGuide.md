@@ -1,5 +1,6 @@
-### USER GUIDE: AUTO ADVISOR
-
+# USER GUIDE: AUTO ADVISOR
+---
+## Contents
 This is a simple user guide for the Auto Advising software.
 Contents include:
 1. How to run Auto Advisor
@@ -9,7 +10,7 @@ Contents include:
 5. FAQs
 ---
 
-## How to run Auto Advisor
+### How to run Auto Advisor
 
 *Found also in the README.md for this project*
 ***Ensure you follow all formatting EXACTLY as stated***
@@ -58,3 +59,8 @@ Contents include:
 
 ---
 
+### Known Issues
+
+*The Auto Advisor software is incomplete and not fully tested. There may be more issues than mentioned here*
+_MAIN ISSUES_
+1. 
