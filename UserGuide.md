@@ -62,5 +62,43 @@ Contents include:
 ### Known Issues
 
 *The Auto Advisor software is incomplete and not fully tested. There may be more issues than mentioned here*
-_MAIN ISSUES_
-1. 
+
+1. The most pressing issue is that the software itself has yet to be implemented. What is displayed represents the software's expected output. We are working on pushing the software into Auto Advisor, however we are unsure of when it will be avaliable.
+2. The Database may not contain all information needed to accurately present the needed information. Classes and requirements update every year so this will need to be updated as well.
+3. The website is takes a somewhat involved process to run properly.
+4. Bug testing has been limited. Most bug testing has been done to the login page exclusively.
+
+---
+
+### Future Development
+
+We would love to continue this project to get students at SEMO the help they need when working through their class scheduling. In order to do this, we have a few steps we must first take.
+
+* We want to fully implement the software to allow all CY, CS, and IS students to create and modify their schedules.
+* We want to add proper security feature to the webpage. As cybersecurity concerns continue to grow, we feel this is the most logical step in helping keep SEMO students safe online.
+* We feel that if this software works for the CY, CS, and IS majors, it may be able to assist other departments or colleges at SEMO when it comes to academic advising. If possible we would love to expand to further horizens in the future.
+* Continued support. While this project has been challenging, fun, frustrating, and rewarding, we want it to be continually update and made better. Be it by ourselves or future students.
+
+---
+
+### FAQs
+
+Here are some questions that we are asked or have thought of that we figured you may have!
+
+Q. Why Auto Advisor? What would it do.
+A. The Auto Advisor software is meant to be a way for students to set themselves up for success as soon as they arrive at SEMO. Be a traditional student or transfer student, international or working on a new degree path, this software is made for all. It will help select classes based on avaliablity as well as student qualifications. It helps the students arrive at the fastest path to their overall goal: Graduation!
+
+Q. Who designed this software?
+A. This was designed by a team of four students from Southeast Missouri State University: Nathan Kiehl, Ryan Lee, Ethan Limbaugh, and Gavin Spytek.
+
+Q. Can I just jump right in?
+A. Woah there cowboy. First you need to be a registered student or staff member at SEMO. You also must be majoring or minoring in Computer Science, Cybersecurity, or Information Systems. If that's you then you're all good to go!
+
+Q. When will this software be done?
+A. NEVER. Well, kinda never. It has to be updated each semester due to class changes, staff changes, and such.
+
+---
+
+Thank you for taking a little time out of your day to read our User Guide! We hope it has helped answer some of your questions.
+No go forth and learn!
+   
