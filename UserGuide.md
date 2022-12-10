@@ -85,27 +85,27 @@ We would love to continue this project to get students at SEMO the help they nee
 
 Here are some questions that we are asked or have thought of that we figured you may have!
 
-Q. Why Auto Advisor? What would it do.
+Q1. Why Auto Advisor? What would it do.
 
-A. The Auto Advisor software is meant to be a way for students to set themselves up for success as soon as they arrive at SEMO. Be a traditional student or transfer student, international or working on a new degree path, this software is made for all. It will help select classes based on avaliablity as well as student qualifications. It helps the students arrive at the fastest path to their overall goal: Graduation!
-
-
-
-Q. Who designed this software?
-
-A. This was designed by a team of four students from Southeast Missouri State University: Nathan Kiehl, Ryan Lee, Ethan Limbaugh, and Gavin Spytek.
+A1. The Auto Advisor software is meant to be a way for students to set themselves up for success as soon as they arrive at SEMO. Be a traditional student or transfer student, international or working on a new degree path, this software is made for all. It will help select classes based on avaliablity as well as student qualifications. It helps the students arrive at the fastest path to their overall goal: Graduation!
 
 
 
-Q. Can I just jump right in?
+Q2. Who designed this software?
 
-A. Woah there cowboy. First you need to be a registered student or staff member at SEMO. You also must be majoring or minoring in Computer Science, Cybersecurity, or Information Systems. If that's you then you're all good to go!
+A2. This was designed by a team of four students from Southeast Missouri State University: Nathan Kiehl, Ryan Lee, Ethan Limbaugh, and Gavin Spytek.
 
 
 
-Q. When will this software be done?
+Q3. Can I just jump right in?
 
-A. NEVER. Well, kinda never. It has to be updated each semester due to class changes, staff changes, and such.
+A3. Woah there cowboy. First you need to be a registered student or staff member at SEMO. You also must be majoring or minoring in Computer Science, Cybersecurity, or Information Systems. If that's you then you're all good to go!
+
+
+
+Q4. When will this software be done?
+
+A4. NEVER. Well, kinda never. It has to be updated each semester due to class changes, staff changes, and such.
 
 ---
 
