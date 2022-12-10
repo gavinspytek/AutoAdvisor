@@ -70,14 +70,21 @@
 * Avast Secure Browser Version 107.0.19447.122 (Official Build) (64-bit)
 
 ---
-### External Libraries/Frameworks
+### External Libraries/Frameworks/Software
 
-**Auto Advisor uses the following External Libraries/Frameworks:
+**Auto Advisor uses the following External Libraries/Frameworks/Software:\
+* XAMPP
+* Visual Studio Code
+* phpmyadmin
 
 ---
 ### Starter Code
+*Code in this section was either used partially, mostly, or simply referenced. Links show where the code was originally located*
+* https://www.w3schools.com/howto/howto_js_collapsible.asp
+* https://stackoverflow.com/questions/27014042/display-data-from-mysql-phpmyadmin-on-html-page
+* https://www.javatpoint.com/php-mysql-login-system
 
 ---
 ### Changed Code
-
-
+Most of the changed code revolved around changing specifics to match our project.
+For example, in the 2nd link above, headers for the tables was changed as well as what information was queried.
