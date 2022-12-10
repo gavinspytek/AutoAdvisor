@@ -61,7 +61,7 @@
 ---
 ### Tested Brower and OS
 
-**Auto Advisor has been tested on the following Operating Systems:
+Auto Advisor has been tested on the following Operating Systems:
 * Windows 10 Home Build 19044.2251
 * Windows 11 Home Version 22H2
 
@@ -72,7 +72,7 @@
 ---
 ### External Libraries/Frameworks/Software
 
-**Auto Advisor uses the following External Libraries/Frameworks/Software:\
+Auto Advisor uses the following External Libraries/Frameworks/Software:
 * XAMPP
 * Visual Studio Code
 * phpmyadmin
