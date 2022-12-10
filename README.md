@@ -65,7 +65,7 @@ Auto Advisor has been tested on the following Operating Systems:
 * Windows 10 Home Build 19044.2251
 * Windows 11 Home Version 22H2
 
-**Auto Advisor has been tested on the following Browsers:
+Auto Advisor has been tested on the following Browsers:
 * Google Chrome Version 108.0.5359.99 (Official Build) (64-bit)
 * Avast Secure Browser Version 107.0.19447.122 (Official Build) (64-bit)
 
