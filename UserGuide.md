@@ -1,4 +1,4 @@
-***USER GUIDE: AUTO ADVISOR
+### USER GUIDE: AUTO ADVISOR
 
 This is a simple user guide for the Auto Advising software.
 Contents include:
@@ -9,7 +9,7 @@ Contents include:
 5. FAQs
 ---
 
-** How to run Auto Advisor
+## How to run Auto Advisor
 
 *Found also in the README.md for this project*
 ***Ensure you follow all formatting EXACTLY as stated***
