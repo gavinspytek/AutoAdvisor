@@ -28,7 +28,7 @@
 7. On the XAMPP Control Panel, click Explorer.
 8. Find the phpMyAdmin folder, open it.
 9. Locate the file config.inc.php. It may also be called config.inc. Open this file.
-10. Add line 11 in the "Authentication type and info" section near the beginning, which is located near the beginning.
+10. Add line 11 in the "Authentication type and info" section near the beginning.
 11. $cfg['Servers'][$i]['port'] = 4000;
 12. Save the file and return to the XAMPP Control Panel
 
