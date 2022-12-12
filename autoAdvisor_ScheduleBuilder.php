@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -45,21 +46,18 @@
     </style>
 
     <script src="scheduleBuilder.js"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-
-
-</script>
-
-<body>
+<body style="background-color:maroon;">
 
     <!--3 Main Colums-->
-    <div class="row" style="height:100%;">
+    <div class="row">
 
         <!--Left Column-->
-        <div class="column left" style="overflow-y:scroll;">
-            <h1>Semester Viewer</h1>
+        <div class="column left" >
+            <h1 style="background-color:maroon;">Semester Viewer</h1>
             <br />
             <button type="button" class="semesterView">Fall 2022</button>
             <button type="button" class="semesterView">Spring 2023</button>
@@ -71,15 +69,20 @@
         
         <!--Middle Column-->
 
-        <div class="column middle">
-            <!--Top section-->
-            <div class="tab">
+        <div class="column middle" style="height:100vh;">
+            
+                <!--Top section-->
+            <div class="tab" style="height:7%;">
                 <button class="tablinks">Schedule Editor</button>
                 <button class="tablinks" id="save_button" value="Save" onclick="">Save</button>
                 <button class="tablinks" id="edit_button" value="Edit" onclick="">Edit</button>
                 <button class="tablinks">Load</button>
-                <a href="index.php"><button class="tablinks">Classes</button></a>
-                <a href="autoAdvisor.html"><button class="tablinks">Logout</button></a>
+                <a href="index.php">
+                    <button class="tablinks">Classes</button>
+                </a>
+                <a href="autoAdvisor.html">
+                    <button class="tablinks">Logout</button>
+                </a>
             </div>
             <!--Table-->
             <div>
@@ -87,69 +90,79 @@
 
                 <table id="editor" class="table">
                     <thead>
-                    <th style="width: 275px;">Course</th>
-                    <th style="width: 225px;">Credits</th>
+                        <th style="width: 275px;">Course</th>
+                        <th style="width: 225px;">Credits</th>
                     </thead>
 
-                    <tbody>
-                        
-                    </tbody>
+                    <tbody></tbody>
 
                 </table>
 
             </div>
-
+            
         </div>
 
 
         <!--Right Column-->
-        <div class="container column right" style="overflow-y:scroll;">
+        <div class="container column right" style="overflow-y:scroll; height:100vh;">
 
 
-            <h1>Courses</h1>
+            <h1 style="background-color:maroon;">Courses</h1>
             <!--Computer Science-->
             <button type="button" class="collapsible">Computer Science</button>
-            <div class="content">
+            <div class="content" style="overflow-y:scroll;">
 
                 <button type="button" class="collapsible">CS 101 - Introduction to Computer Programming</button>
                 <div class="content">
-                    <p>do stuff</p>
+                    <p>
+                        Introduction to design and development of simple programs using Python.
+                    </p>
                     <!--Submit Button-->
-                    <button type="submit" onclick="addToTable()">Add to Builder</button>
+                    <button type="submit" onclick="addToTable1()">Add to Builder</button>
                 </div>
 
                 <button type="button" class="collapsible">CS 350 - Analysis of Algorithms</button>
                 <div class="content">
-                    <p>do stuff</p>
+                    <p>
+                        A continuation of the study of data abstractions and the algorithms for their manipulation. Emphasis on the analysis of non-numeric algorithms.
+                    </p>
                     <!--Submit Button-->
-                    <button type="submit" onclick="addToTable()">Add to Builder</button>
+                    <button type="submit" onclick="addToTable2()">Add to Builder</button>
                 </div>
 
                 <button type="button" class="collapsible">CS 440 - Database</button>
                 <div class="content">
-                    <p>do stuff</p>
+                    <p>
+                        Basic concepts of database and database architecture. Discussion of entity-relationship and relational database models. 
+                        Study of the SQL query language. Study of database design methodology.
+                    </p>
                     <!--Submit Button-->
-                    <button type="submit" onclick="addToTable()">Add to Builder</button>
+                    <button type="submit" onclick="addToTable3()">Add to Builder</button>
                 </div>
 
-                <button type="button" class="collapsible">CS 445 - Software Enginering</button>
+                <button type="button" class="collapsible">CS 445 - Software Enginering 1</button>
                 <div class="content">
-                    <p>do stuff</p>
+                    <p>
+                        Provides an in depth understanding of the principles and techniques used in the analysis and design aspects of developing applications systems.
+                        Apply techniques and tools to produce the system artifacts pertaining to analysis and design. 
+                    </p>
                     <!--Submit Button-->
-                    <button type="submit" onclick="addToTable()">Add to Builder</button>
+                    <button type="submit" onclick="addToTable4()">Add to Builder</button>
                 </div>
 
                 <button type="button" class="collapsible">CS 480 - Data Communication</button>
                 <div class="content">
-                    <p>do stuff</p>
+                    <p>
+                        Principles of data communication and computer networks. 
+                    </p>
                     <!--Submit Button-->
-                    <button type="submit" onclick="addToTable()">Add to Builder</button>
+                    <button type="submit" onclick="addToTable5()">Add to Builder</button>
                 </div>
             </div>
 
             <!--Cyber Security-->
             <button class="collapsible">Cyber Security</button>
-            <div class="content">
+            <div class="content" style="overflow-y:scroll;">
 
                 <button type="button" class="collapsible">CY 201 - Introduction to Cybersecurity</button>
                 <div class="content">
@@ -157,7 +170,7 @@
                         Broad introduction to the field of cybersecurity, information assurance terminology and issues, computer forensics investigation and methodology. 
                     </p>
                     <!--Submit Button-->
-                    <button type="submit" onclick="addToTable()">Add to Builder</button>
+                    <button type="submit" onclick="addToTable6()">Add to Builder</button>
                 </div>
                 <button type="button" class="collapsible">CY 310 - Information Security and Assurance</button>
                 <div class="content">
@@ -165,7 +178,7 @@
                         Software assurance, secure programming practices, software security analysis, hardware/firmware security, cryptographic principles to design secure systems.
                     </p>
                     <!--Submit Button-->
-                    <button type="submit" onclick="addToTable()">Add to Builder</button>
+                    <button type="submit" onclick="addToTable7()">Add to Builder</button>
                 </div>
                 <button type="button" class="collapsible">CY 320 - Information Security in System Administration</button>
                 <div class="content">
@@ -173,7 +186,7 @@
                         Security construct for privilege management, security policies, authorization models, security administration of networking elements, database, OS, and Cloud.
                     </p>
                     <!--Submit Button-->
-                    <button type="submit" onclick="addToTable()">Add to Builder</button>
+                    <button type="submit" onclick="addToTable8()">Add to Builder</button>
                 </div>
                 <button type="button" class="collapsible">CY 410 - Web Application Security</button>
                 <div class="content">
@@ -182,7 +195,7 @@
                         Penetration testing. Security in systems using advanced web technologies.
                     </p>
                     <!--Submit Button-->
-                    <button type="submit" onclick="addToTable()">Add to Builder</button>
+                    <button type="submit" onclick="addToTable9()">Add to Builder</button>
                 </div>
                 <button type="button" class="collapsible">CY 420 - Computer Forensics</button>
                 <div class="content">
@@ -191,7 +204,7 @@
                          timeline analysis, extraction and recovery of files and data. Dealing with as-yet-unknown malware.
                     </p>
                     <!--Submit Button-->
-                    <button type="submit" onclick="addToTable()">Add to Builder</button>
+                    <button type="submit" onclick="addToTable10()">Add to Builder</button>
                 </div>
                 <button type="button" class="collapsible">CY 440 - Cloud Computing</button>
                 <div class="content">
@@ -200,7 +213,7 @@
                         access management, regulation, compliance in cloud.
                     </p>
                     <!--Submit Button-->
-                    <button type="submit" onclick="addToTable()">Add to Builder</button>
+                    <button type="submit" onclick="addToTable11()">Add to Builder</button>
                 </div>
                 <button type="button" class="collapsible">CY 450 - Introduction to Cyber Operations</button>
                 <div class="content">
@@ -208,25 +221,25 @@
                         Cyberspace and Cyber warfare. Tools, techniques of cyber offense and defensive tactics. Foot printing and monitoring techniques.
                     </p>
                     <!--Submit Button-->
-                    <button type="submit" onclick="addToTable()">Add to Builder</button>
+                    <button type="submit" onclick="addToTable12()">Add to Builder</button>
                 </div>
             </div>
 
             <!--Information Systems-->
             <button class="collapsible">Infomation Systems</button>
-            <div class="content">
+            <div class="content" style="overflow-y:scroll;">
 
                 <button type="button" class="collapsible">IS 145 - Introductio to Web Development</button>
                 <div class="content">
                     <p>Introduction to website development including vocabulary, tools, and standards used in the field, with emphasis on HTML/CSS. </p>
                     <!--Submit Button-->
-                    <button type="submit" onclick="addToTable()">Add to Builder</button>
+                    <button type="submit" onclick="addToTable13()">Add to Builder</button>
                 </div>
             </div>
 
             <!--IU Classes-->
             <button class="collapsible">Unitversity Studies</button>
-            <div class="content">
+            <div class="content" style="overflow-y:scroll;">
 
                 <button type="button" class="collapsible">IU 315 - Ethics in the Cyber World</button>
                 <div class="content">
@@ -234,22 +247,20 @@
                         Social and ethical issues and controversies concerning new and evolving technologies in the cyber world. 
                     </p>
                     <!--Submit Button-->
-                    <button type="submit" onclick="addToTable()">Add to Builder</button>
+                    <button type="submit" onclick="addToTable14()">Add to Builder</button>
                 </div>
             </div>
 
             <!--Math Classes-->
             <button class="collapsible">Math</button>
-            <div class="content">
-
-                <button type="button" class="collapsible">CS 480 - Data Communication</button>
+            <div class="content" style="overflow-y:scroll;">
+                <button type="button" class="collapsible">MA 139 - Applied Calculus</button>
                 <div class="content">
-                     <p>
-                        For students in business, social or life sciences. Functions, limits, differentiation, and integration of elementary functions. Emphasizes applications.
+                    <p>
+                        For students in business, social or life sciences. Functions, limits, differentiation, and integration of elementary functions. Emphasizes applications. 
                     </p>
                     <!--Submit Button-->
-                    <button type="submit" onclick="addToTable()">Add to Builder</button>
-                    
+                    <button type="submit" onclick="addToTable15()">Add to Builder</button>
                 </div>
                 <button type="button" class="collapsible">MA 223 - Elementary Probability & Statistics</button>
                 <div class="content">
@@ -258,7 +269,7 @@
                         estimation, hypothesis testing, correlation, and linear regression.
                     </p>
                     <!--Submit Button-->
-                    <button type="submit" onclick="addToTable()">Add to Builder</button>
+                    <button type="submit" onclick="addToTable15()">Add to Builder</button>
                 </div>
                 <button type="button" class="collapsible">MA 464 - Mathematical Cryptography</button>
                 <div class="content">
@@ -267,49 +278,11 @@
                         Shannons theory of secrecy, modern private-key cryptosystems such as DES and AES, and public-key cryptosystems such and RSA.
                     </p>
                     <!--Submit Button-->
-                    <button type="submit" onclick="addToTable()">Add to Builder</button>
+                    <button type="submit" onclick="addToTable16()">Add to Builder</button>
                 </div>
             </div>
 
         </div>
-
-
-         <!--Right Column-->
-        <div class="container column right" style="overflow-y:scroll;">
-        
-        
-        <?php
-		include("maclasses.php");
-
-        echo "<table border='1'>
-            <tr><th>Courses</th>
-            <th>Credits</th>
-            </tr>";
-
-        while($row = mysqli_fetch_assoc($result)){
-            echo "<tr><td>{$row['class_title']}</td><td>{$row['class_credits']}</td></tr>";
-		}
-        echo "</table>";
-        mysqli_close($con);
-        ?>
-
-        
-        </div>
-
-
-        <!--Script for adding to table-->
-        <script>
-
-            function addToTable() {
-                var table = document.getElementById("editor");
-                var row = table.insertRow(0);
-                var cell1 = row.insertCell(0);
-                var cell2 = row.insertCell(1);
-                cell1.innerHTML = "NEW CELL1";
-                cell2.innerHTML = "NEW CELL2";
-            }
-
-        </script>
 
         <!--Script for collapse-->
         <script>

@@ -19,7 +19,7 @@
         $count = mysqli_num_rows($result);  
           
         if($count == 1){
-            header("Location: autoAdvisor_ScheduleBuilder.html");
+            header("Location: autoAdvisor_ScheduleBuilder.php");
             //echo "<h1><center> Login successful </center></h1>"; 
         }  
         else{  
@@ -27,3 +27,4 @@
               
         }     
 ?>  
+
