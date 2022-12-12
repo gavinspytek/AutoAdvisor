@@ -43,6 +43,16 @@
             transition: max-height 0.2s ease-out;
             background-color: #f1f1f1;
         }
+
+        .footer{
+            position:fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height:60px;
+            background-color: #ba1414;
+            text-align: center;
+        }
     </style>
 
     <script src="scheduleBuilder.js"></script>
@@ -56,7 +66,7 @@
     <div class="row">
 
         <!--Left Column-->
-        <div class="column left" style="border:solid;" >
+        <div class="column left" style="border:solid;height:90vh;" >
             <h1 style="background-color:#ba1414;">Semester Viewer</h1>
             <br />
             <button type="button" class="semesterView">Fall 2022</button>
@@ -69,17 +79,13 @@
         
         <!--Middle Column-->
 
-        <div class="column middle" style="height:100vh;">
+        <div class="column middle" style="height:90vh;">
             
                 <!--Top section-->
             <div class="tab" style="height:7%;">
                 <button class="tablinks">Schedule Editor</button>
                 <button class="tablinks" id="save_button" value="Save" onclick="">Save</button>
-                <button class="tablinks" id="edit_button" value="Edit" onclick="">Edit</button>
                 <button class="tablinks">Load</button>
-                <a href="index.php">
-                    <button class="tablinks">Classes</button>
-                </a>
                 <a href="autoAdvisor.html">
                     <button class="tablinks">Logout</button>
                 </a>
@@ -98,13 +104,15 @@
 
                 </table>
 
+                
             </div>
+            
             
         </div>
 
 
         <!--Right Column-->
-        <div class="container column right" style="overflow-y:scroll; height:100vh;border:solid;">
+        <div class="container column right" style="overflow-y:scroll; height:90vh;border:solid;">
 
 
             <h1 style="background-color:#ba1414;">Courses</h1>
@@ -283,6 +291,11 @@
             </div>
 
         </div>
+
+        <!--Footer-->
+        <h3 class="footer">Need Help?</h3>
+
+
 
         <!--Script for collapse-->
         <script>
