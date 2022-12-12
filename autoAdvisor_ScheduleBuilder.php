@@ -50,14 +50,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-<body style="background-color:maroon;">
+<body style="background-color:#ba1414;">
 
     <!--3 Main Colums-->
     <div class="row">
 
         <!--Left Column-->
-        <div class="column left" >
-            <h1 style="background-color:maroon;">Semester Viewer</h1>
+        <div class="column left" style="border:solid;" >
+            <h1 style="background-color:#ba1414;">Semester Viewer</h1>
             <br />
             <button type="button" class="semesterView">Fall 2022</button>
             <button type="button" class="semesterView">Spring 2023</button>
@@ -86,7 +86,7 @@
             </div>
             <!--Table-->
             <div>
-                <h1>Editor</h1>
+                <h1 style="background-color: #ba1414;">Editor</h1>
 
                 <table id="editor" class="table">
                     <thead>
@@ -104,10 +104,10 @@
 
 
         <!--Right Column-->
-        <div class="container column right" style="overflow-y:scroll; height:100vh;">
+        <div class="container column right" style="overflow-y:scroll; height:100vh;border:solid;">
 
 
-            <h1 style="background-color:maroon;">Courses</h1>
+            <h1 style="background-color:#ba1414;">Courses</h1>
             <!--Computer Science-->
             <button type="button" class="collapsible">Computer Science</button>
             <div class="content" style="overflow-y:scroll;">

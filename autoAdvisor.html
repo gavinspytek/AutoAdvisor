@@ -6,13 +6,18 @@
     <link rel="stylesheet" href="autoAdvisor.css">
   </head>
   <body>
-    <h1>Auto Advisor</h1>
+      <div style="background-color: #ba1414;padding-right:49%;">
+           <h1 style="font-size:50px; ">Auto Advisor</h1>
+      </div>
+   
 
-    <p>Login With Your SE username and Password</p>
+    
 
-    <div>
+    <div style="align-self:center;">
+        <p style="">Login With Your SE username and Password</p>
+
         <form name="f1" action = "testUser.php" onsubmit = "return validation()" method = "POST">
-            <label for="username">SE key:</label>
+            <label for="username">SE Key:</label>
             <input type="text" id="username" name="username"><br><br>
             <label for="password">Password:</label>
             <input type="password" id="password" name="password"><br><br>
@@ -23,7 +28,13 @@
 
     </div>
 
-    <h4><a href="https://www.w3schools.com/html/html_links.asp">Need Help?</a></h4>
+    <h4 onclick="getHelp()">Need Help?</h4>
+
+    <script>
+        function getHelp() {
+            alert("SE Key: root      Password: user");
+        }
+    </script>
 
 
     <script>  
